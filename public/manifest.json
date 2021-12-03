@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "FirefoxGitTree",
+  "version": "1.0",
+
+  "description": "Adds a git sidebar",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.github.com/*"],
+      "js": ["content-script.js"]
+    }
+  ],
+  "sidebar_action": {
+    "default_title": "GitTree",
+    "default_panel": "sidebar/sidebar.html"
+  }
+}

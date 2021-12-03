@@ -1,0 +1,27 @@
+{
+  "name": "firefoxgittreeextension",
+  "version": "1.0.0",
+  "description": "git directory tree extension for firefox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "npx rollup -c -m"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robert-hamilton36/FirefoxGitTreeExtension.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robert-hamilton36/FirefoxGitTreeExtension/issues"
+  },
+  "homepage": "https://github.com/robert-hamilton36/FirefoxGitTreeExtension#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "preact": "^10.6.2",
+    "rollup": "^2.60.2",
+    "typescript": "^4.5.2"
+  }
+}
