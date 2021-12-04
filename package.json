@@ -56,6 +56,12 @@
     "rules": {
     }
   },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "semi": false,
+    "singleQuote": true
+  },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.0.6",
     "@rollup/plugin-typescript": "^8.3.0",
@@ -67,6 +73,7 @@
     "jest": "^27.4.3",
     "jsdom": "^16.7.0",
     "preact": "^10.6.2",
+    "prettier": "2.5.0",
     "rollup": "^2.60.2",
     "ts-jest": "^27.0.7",
     "typescript": "^4.5.2"
