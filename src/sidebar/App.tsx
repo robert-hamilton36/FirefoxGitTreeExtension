@@ -2,7 +2,7 @@ import { h } from 'preact'
 
 export const App = () => {
   return (
-    <div>
+    <div data-testid='text'>
       Hello World script
     </div>
   )
