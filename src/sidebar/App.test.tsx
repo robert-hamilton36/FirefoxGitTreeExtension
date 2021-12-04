@@ -1,5 +1,6 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { h } from 'preact'
-import { render, fireEvent, screen } from '@testing-library/preact'
+import { render } from '@testing-library/preact'
 
 import {App} from './App'
 
