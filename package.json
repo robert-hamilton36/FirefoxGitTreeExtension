@@ -36,6 +36,7 @@
     "eslintConfig": {
         "env": {
             "browser": true,
+            "webextensions": true,
             "es2021": true
         },
         "extends": [
@@ -58,7 +59,7 @@
     },
     "prettier": {
         "trailingComma": "es5",
-        "tabWidth": 4,
+        "tabWidth": 2,
         "semi": false,
         "singleQuote": true
     },
@@ -66,6 +67,7 @@
         "@rollup/plugin-node-resolve": "^13.0.6",
         "@rollup/plugin-typescript": "^8.3.0",
         "@testing-library/preact": "^2.0.1",
+        "@testing-library/preact-hooks": "^1.1.0",
         "@types/jest": "^27.0.3",
         "@typescript-eslint/eslint-plugin": "^5.5.0",
         "@typescript-eslint/parser": "^5.5.0",
