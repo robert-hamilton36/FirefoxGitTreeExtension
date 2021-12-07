@@ -5,6 +5,10 @@
 
     "description": "Adds a git sidebar",
 
+    "permissions": [
+        "webNavigation"
+    ],
+
     "content_scripts": [
         {
             "matches": ["*://*.github.com/*"],
@@ -13,6 +17,7 @@
     ],
     "sidebar_action": {
         "default_title": "GitTree",
-        "default_panel": "sidebar/sidebar.html"
+        "default_panel": "sidebar/sidebar.html",
+        "open_at_install": false
     }
 }
