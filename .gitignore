@@ -13,3 +13,4 @@ jspm_packages/
 .env.test
 
 public/sidebar/sidebar.js.map
+public/sidebar/sidebar.js
