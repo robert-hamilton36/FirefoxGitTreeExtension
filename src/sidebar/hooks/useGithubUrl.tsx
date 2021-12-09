@@ -12,12 +12,18 @@ export const useGithubUrl = () => {
     const pathArray = removedGithubDomain.split('/')
     if (pathArray[0]) {
       setUser(pathArray[0])
+    } else {
+      setUser('')
     }
     if (pathArray[1]) {
       setRepo(pathArray[1])
+    } else {
+      setRepo('')
     }
     if (pathArray[3]) {
       setBranch(pathArray[3])
+    } else {
+      setBranch('')
     }
   }
 
