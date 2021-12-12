@@ -27,6 +27,6 @@ export const useGithubUrl = () => {
     }
   }
 
-  return [ user, repo, branch, cleanUrl ] as const
+  return [ user, repo, branch, setUser, setRepo, setBranch, cleanUrl ] as const
 
 }
