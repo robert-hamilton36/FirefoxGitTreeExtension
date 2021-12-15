@@ -1,7 +1,7 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { h, JSX } from 'preact'
 import { renderHook, act } from '@testing-library/preact-hooks'
-import { GitProvider, useGitContext } from './GithubProvider'
+import { GitProvider, useGitContext } from '../GithubProvider'
 
 describe('<GitProvider>', () => {
 
