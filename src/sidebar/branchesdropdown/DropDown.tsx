@@ -13,7 +13,7 @@ export const DropDown = () => {
   }
   
   return (
-    <select onChange={handleChange} value={branch}>
+    <select onChange={handleChange} value={branch} class='dropDown'>
       {branches.map((mapBranch) => {
         return <option value={mapBranch}>{mapBranch}</option>
       })}

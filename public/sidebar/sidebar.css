@@ -21,3 +21,11 @@ body {
 .pointer:hover {
   background-color: rgb(22, 27, 34)
 }
+
+.dropDown {
+  background-color: #007acc;
+  color: #eaf4fb;
+  border-width: 0px;
+  
+  margin-bottom: 15px;
+}
