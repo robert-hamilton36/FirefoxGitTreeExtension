@@ -10,7 +10,7 @@ export const FetchRepos = () => {
   const [ dataTree, setDataTree ] = useState<TreeAPI[]>([])
 
   useEffect(() => {
-    if (!branch) {
+    if (!branch && user && repo) {
       fetchReposMainBranch(user, repo)
       .then(branch => setBranch(branch))
     }

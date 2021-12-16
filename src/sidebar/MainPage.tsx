@@ -1,6 +1,7 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { Fragment, h } from 'preact'
 import { useEffect } from 'preact/hooks'
+import { FetchBranches } from './branchesdropdown/FetchBranches'
 import { FetchRepos } from './directory/FetchRepos'
 import { useGitContext } from './hooks/GithubProvider'
 
@@ -24,7 +25,10 @@ export const MainPage = () => {
     }
   }, [])
   return (
-    <FetchRepos />
+    <Fragment>
+      <FetchBranches />
+      <FetchRepos />
+    </Fragment>
   )
 }
 
